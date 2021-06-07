@@ -3,7 +3,7 @@ import numbers
 import numpy as np
 
 try:
-    import visa
+    import pyvisa as visa
 except ImportError:
     visa = None
 
